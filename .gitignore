@@ -1,0 +1,14 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# gwf workflow state and slurm logs
+.gwf/
+
+# python
+__pycache__/
+*.pyc
+
+# large data outputs (VCFs, VEP cache, parquet) -- ~1.3 TB, never commit
+steps/*
+!steps/crossrepo.yml
