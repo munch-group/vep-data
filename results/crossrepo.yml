@@ -1,2 +1,6 @@
 files:
-  vep.parquet: Parquet formatted VEP info from ensembl
+  vep.parquet:
+    description: Parquet formatted VEP info from ensembl
+    sha256: "547f5a3d36c8c2ade3f0abce3a151a6f748cf59d16e835d2af3906b5487cceb1"
+    size: 31840511289
+    parts: 50
